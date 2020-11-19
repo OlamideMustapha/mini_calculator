@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.text.Text?>
+<?import javafx.event.ActionEvent?>
+<?import java.net.*?>
+
+<fx:root  type="javafx.scene.layout.HBox"
+          xmlns:fx="http://javafx.com/fxml"
+          alignment="bottom_right"
+          styleClass="theme_wrapper" >
+  <children>
+    <Circle centerX="100"
+            centerY="100"
+            stroke="#ffffff"
+            radius="7"
+            styleClass="circle"
+            fx:id="default_theme" />
+  </children>
+
+  <children>
+    <Circle centerX="100"
+            centerY="100"
+            stroke="#ffffff"
+            radius="7"
+            styleClass="circle"
+            fx:id="white_theme" />
+  </children>
+
+  <children>
+    <Circle centerX="100"
+            centerY="100"
+            stroke="#ffffff"
+            radius="7"
+            styleClass="circle"
+            fx:id="pink_theme"/>
+  </children>
+
+  <children>
+    <Circle centerX="100"
+            centerY="100"
+            radius="7"
+            styleClass="circle"
+            fx:id="blue_theme" />
+  </children>
+
+  <stylesheets>
+    <URL value="@theme.css" />
+  </stylesheets>
+</fx:root>

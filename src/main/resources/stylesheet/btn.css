@@ -1,0 +1,18 @@
+Button {
+  -fx-padding:          10px;
+  -fx-border-width:     1px;
+  -fx-border-radius:    1px;
+  -fx-align:            center;
+}
+
+Button.btn {
+  -fx-font-size:   27px;
+  -fx-pref-Width:  80.0;
+  -fx-pref-Height: 70.0;
+}
+
+.side_btn {
+  -fx-font-size:   20px;
+  -fx-pref-Width:  50.0;
+  -fx-pref-Height: 70.0;
+}

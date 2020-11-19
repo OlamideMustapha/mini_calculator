@@ -1,0 +1,44 @@
+.root {
+  -fx-background-color:  #1a1a1b;;
+  -fx-font-size:          14px;
+  -fx-font-family:        sans-Serif;
+  -fx-padding:            10px;
+
+}
+
+Button {
+  -fx-background-color: #1a717c;
+  -fx-text-fill:        #000000;
+}
+
+Button:hover {
+  -fx-background-color: #14444b;
+}
+
+.display {
+  -fx-text-fill:  #1daabd;
+}
+
+.display_wrapper {
+  -fx-background-image: url("/display_bg.png");
+}
+
+#blue_theme {
+  -fx-fill: #1a717c;
+  -fx-stroke: #1a717c;
+}
+
+#pink_theme {
+  -fx-fill: #1a1a1b;
+  -fx-stroke: #c94e63;
+}
+
+#white_theme {
+  -fx-stroke: #4ca7a7;
+  -fx-fill: #ffffff;
+}
+
+#default_theme {
+  -fx-fill:   #1a1a1b;
+  -fx-stroke: #3d4246;
+}

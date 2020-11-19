@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+<?import mini.calculator.controllers.Display?>
+<?import mini.calculator.controllers.Buttons?>
+<?import mini.calculator.controllers.Theme?>
+
+
+<fx:root type="javafx.scene.layout.BorderPane"
+            xmlns:fx="http://javafx.com/fxml"
+            styleClass="root"
+            fx:id="main">
+  <center>
+    <VBox>
+      <children>
+        <Display text="" fx:id="displayBox" />
+        <Theme fx:id="theme" />
+        <Buttons fx:id="buttons" />
+      </children>
+    </VBox>
+  </center>
+
+  <stylesheets>
+    <URL value="@default_theme.css" />
+  </stylesheets>
+
+</fx:root>

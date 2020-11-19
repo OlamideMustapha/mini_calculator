@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.net.URL?>
+
+
+<fx:root  type="javafx.scene.layout.HBox"
+          xmlns:fx="http://javafx.com/fxml"
+          alignment="bottom_right"
+          fx:id="display"
+          styleClass="display_wrapper">
+
+  <ScrollPane
+    fx:id="label_wrapper"
+    hbarPolicy="NEVER"
+    vbarPolicy="NEVER"
+    styleClass="display_label_wrapper" >
+      <content>
+        <Label
+          fx:id="label_display"
+          textAlignment="RIGHT"
+          styleClass="display"
+        />
+      </content>
+  </ScrollPane>
+
+  <stylesheets>
+    <URL value="@display.css" />
+  </stylesheets>
+
+</fx:root>

@@ -1,0 +1,8 @@
+.theme_wrapper {
+  -fx-padding: 5px 10px 0px 0px;
+  -fx-spacing: 5px;
+}
+
+.circle {
+  -fx-stroke-width: 3.9;
+}

@@ -1,0 +1,18 @@
+@font-face {
+  src: url("Digital7Mono-B1g5.ttf");
+
+}
+
+.display {
+  -fx-background-color: transparent;
+  -fx-font-size:   47px;
+  -fx-padding:     8 0 10 2;
+  -fx-font-family: "Digital-7 Mono";
+}
+
+
+.display_label_wrapper {
+  -fx-background-color: transparent;
+  -fx-background:       transparent;
+  -fx-padding:          0 9 10 2;
+}

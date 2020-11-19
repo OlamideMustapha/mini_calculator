@@ -1,3 +1,3 @@
-# MINI CACULATOR
+# MINI CALCULATOR
 
-# A simple implementation of a caculator using javafx
+# A simple implementation of a calculator using javafx
